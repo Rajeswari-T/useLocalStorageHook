@@ -1,3 +1,16 @@
+# useLocalStorage Hook
+
+A custom React hook for storing and retrieving values in `localStorage`.
+
+## Installation
+
+You can use this hook in your React project by copying either the JavaScript or TypeScript version.
+
+### Usage
+
+```tsx
+const [value, setValue] = useLocalStorage<string>("myKey", "defaultValue");
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
